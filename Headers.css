@@ -1,0 +1,90 @@
+.spacer{
+  margin:0;
+  padding: 0;
+}
+.header{
+
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  width:100%;
+  position: fixed;
+  top:0;
+  z-index: 810;
+}
+
+.header__logo{
+
+  width:100px;
+  object-fit: contain;
+  margin-left: 20px;
+  margin-right:20px;
+  margin-top: 18px;
+}
+.header__nav{
+display:flex;
+justify-content: space-evenly;
+
+}
+
+.header__option{             /* header__option is the div for each links in navbar afer search which contains a two span tags*/
+  display:flex;
+  flex-direction: column;
+  margin-left:10px;
+  margin-right:10px;
+}
+.header__option1{
+font-size: 12px;
+
+
+}
+.header__option2{
+  font-size: 15px;
+  font-weight: 800;
+  
+  
+  }
+  .header__basket{
+
+    height:30px;
+    width:30px;
+    
+   
+  }
+
+  .header__optionBasket{
+    display: flex;
+  color:white;
+  width:40px;
+  align-items: center;
+ 
+margin-right:5px;
+  }
+  
+
+ 
+
+.header__link{
+  color:white;
+  text-decoration: none;
+
+}
+
+
+.header__searchIcon{
+  background-color: #cd9042;
+ 
+  height:22px !important;
+  padding: 5px;
+}
+.header__search{
+  display:flex;    
+  flex:1;                  /* 1 will give it to  take the maximum space (priority)*/
+}
+.header__searchInput{
+  height:12px;
+  padding:10px;
+  border:none;
+  width:100%;
+
+}
