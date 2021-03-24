@@ -1,0 +1,10 @@
+
+*{
+    margin: 0 ;       /*by default react put some margin and invisible spaces to avoid dat we are doing this*/
+  }
+  body{
+
+background-color: rgb(234 , 237, 237);
+
+
+  }
